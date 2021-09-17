@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1032266435707",
+    "firebase_url": "https://pmobile-6a278-default-rtdb.firebaseio.com",
+    "project_id": "pmobile-6a278",
+    "storage_bucket": "pmobile-6a278.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032266435707:android:b6dac3524e17be785626de",
+        "android_client_info": {
+          "package_name": "goodman.gm.p_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032266435707-pivl8n9r8udt7svf22vkjclg9nekc34n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goodman.gm.p_mobile",
+            "certificate_hash": "35fdbbb8f196235a84d885c4fd47ecbb5d202814"
+          }
+        },
+        {
+          "client_id": "1032266435707-ur75l0scotilbaaudlo30mcnusr52gvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFgaJKuv4guVamefbs-VvC6t2yC1e5I2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032266435707-ur75l0scotilbaaudlo30mcnusr52gvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

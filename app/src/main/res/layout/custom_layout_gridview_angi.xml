@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/HinhQuanAnAnGi"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"/>
+        <TextView
+            android:id="@+id/tvTenQuanAnAnGi"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quang "
+            android:textColor="#000000"
+            android:textSize="13dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

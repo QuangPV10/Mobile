@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="goodman.gm.p_mobile">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/custom_avatar"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.CapNhatThongTin"></activity>
+        <activity android:name=".Controller.Admin_Comment_MaBinhLuan" />
+        <activity android:name=".Controller.HienThiChiTietBinhLuan" />
+        <activity android:name=".Controller.Admin_Blog_Add" />
+        <activity android:name=".Controller.Admin_ChiTiet_Blog" />
+        <activity android:name=".Controller.EditProfile" />
+        <activity android:name=".Controller.Admin_Blog" />
+        <activity android:name=".Controller.BinhLuanActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Controller.Map"
+            android:label="@string/title_activity_map" />
+        <activity android:name=".Controller.ChiTietBlog" />
+        <activity android:name=".Controller.BlogActivity" />
+        <activity android:name=".Controller.Admin_Near_Add" />
+        <activity android:name=".Controller.Admin_Food_Add" />
+        <activity android:name=".Controller.Admin_ChiTiet_Food" />
+        <activity android:name=".Controller.Admin_ChiTiet_User" />
+        <activity android:name=".Controller.Admin" />
+        <activity android:name=".Controller.ChiTietQuanAn" />
+        <activity android:name=".Controller.ChonHinhBinhLuan" />
+        <activity android:name=".Controller.DangKy" />
+        <activity android:name=".Controller.Admin_Food" />
+        <activity android:name=".Controller.Admin_User" />
+        <activity android:name=".Controller.Admin_Comment" />
+        <activity android:name=".Controller.GanToi" />
+        <activity android:name=".Controller.DoiMatKhau" />
+        <activity android:name=".Controller.TestAPIGoogle" />
+        <activity android:name=".Controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controller.DangNhap" />
+        <activity android:name=".Controller.TrangChu" />
+        <activity android:name=".Controller.TrangCaNhan" />
+        <activity android:name=".Controller.Admin_Near" />
+        <activity android:name=".Controller.Admin_ChiTiet_Near" />
+        <activity android:name=".Controller.SetNewPassword" />
+        <activity android:name=".Controller.Vertify_OTP" />
+        <activity android:name=".Controller.QuenMatKhau" />
+    </application>
+
+</manifest>

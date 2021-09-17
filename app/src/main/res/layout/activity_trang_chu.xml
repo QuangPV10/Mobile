@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+
+    tools:context=".Controller.TrangChu">
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/imgQuanLy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <RadioGroup
+            android:id="@+id/rdGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_radio_trangchu"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdOdau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_radio_odau"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:fontFamily="@font/bungee"
+                android:padding="10dp"
+                android:text="Ở đâu"
+                android:textColor="@drawable/changetext_radio_trangchu" />
+
+            <RadioButton
+                android:id="@+id/rdAnGi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_radio_angi"
+                android:button="@android:color/transparent"
+                android:fontFamily="@font/bungee"
+                android:padding="10dp"
+                android:text="Ăn gì?"
+                android:textColor="@drawable/changetext_radio_trangchu" />
+        </RadioGroup>
+
+        <ImageButton
+            android:id="@+id/imageButtonPerson"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_person" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <!--    <ImageView-->
+    <!--        android:scaleType="fitXY"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="80dp"-->
+    <!--        android:src="@drawable/banner"/>-->
+    <com.smarteist.autoimageslider.SliderLayout
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGanToi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:drawableLeft="@drawable/nearby"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="@string/gantoi"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:drawableLeft="@drawable/order"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="@string/giaohang"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:drawableLeft="@drawable/review"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="@string/danhgia"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnBlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:drawableLeft="@drawable/review"
+            android:drawablePadding="10dp"
+            android:gravity="left|center"
+            android:padding="10dp"
+            android:text="@string/blogs"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/group_tab_radio"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdMoiNhat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/change_background"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:gravity="center"
+            android:text="@string/moinhat"
+            android:textColor="@drawable/change_text_trangchu"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent">
+
+        </View>
+
+        <RadioButton
+            android:id="@+id/rdDoanhMuc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/change_background"
+            android:button="@android:color/transparent"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:gravity="center"
+            android:text="@string/doanhmuc"
+            android:textColor="@drawable/change_text_trangchu"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent">
+
+        </View>
+
+        <RadioButton
+            android:id="@+id/rdKhuVuc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/change_background"
+            android:button="@android:color/transparent"
+            android:drawableBottom="@drawable/ic_keyboard_arrow_down_black_24dp"
+            android:gravity="center"
+            android:text="@string/khuvuc"
+            android:textColor="@drawable/change_text_trangchu"
+
+            android:textSize="15dp" />
+
+    </RadioGroup>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerTrangChu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

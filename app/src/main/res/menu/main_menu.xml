@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/trangquanly"
+            android:icon="@drawable/ic_pen"
+            android:title="Trang Quản Lý"
+            ></item>
+
+        <item
+            android:id="@+id/trangchu"
+            android:icon="@drawable/ic_home"
+            android:title="Trang Chủ"></item>
+
+
+        <item
+            android:id="@+id/trangdangnhap"
+            android:icon="@drawable/ic_key"
+            android:title="Trang Đăng Nhập"></item>
+
+        <item
+            android:id="@+id/trangdangky"
+            android:icon="@drawable/ic_lock"
+            android:title="Trang Đăng Ký"></item>
+
+
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#FDD835"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/imageMenu"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity = "center_horizontal"
+        android:src="@drawable/logo"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="FOODY"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/imageMenu"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đánh giá đồ ăn một cách chân thật"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true">
+
+    </TextView>
+
+
+</RelativeLayout>

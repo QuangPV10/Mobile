@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.MainActivity"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="275dp"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        android:transitionName="logo_image"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/texthere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/bungee"
+        android:textColor="#E10A1D"
+        android:transitionName="logo_text"
+        android:text="FOODY HERE"
+        android:textAlignment="center"
+        android:textSize="70sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/textback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/bungee"
+        android:text="WELCOME BACK"
+        android:textAlignment="center"
+        android:textSize="30sp">
+
+    </TextView>
+
+</LinearLayout>

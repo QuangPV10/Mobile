@@ -1,0 +1,125 @@
+{
+  "Category" : {
+    "01" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "02" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun1.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "03" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun2.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "04" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun3.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "05" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun4.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "06" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun5.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "07" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun6.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "08" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun7.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "09" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun8.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "10" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/bun9.jpg",
+      "Name" : "Bún Bò Huế",
+      "Price" : "20000"
+    },
+    "11" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "12" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho1.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "13" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho2.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "14" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho3.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "15" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho4.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "16" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho5.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "17" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho6.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "18" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho7.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "19" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho8.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "20" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho9.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    },
+    "21" : {
+      "Image" : "gs://pmobile-da78b.appspot.com/pho10.jpg",
+      "Name" : "Phở Hà Nội",
+      "Price" : "20000"
+    }
+  },
+  "Users" : {
+    "admin" : {
+      "mEmail" : "admin@gmail.com",
+      "mFullName" : "Admin",
+      "mPassword" : "12345#qw",
+      "mPhoneNumber" : "0909444777",
+      "mUserName" : "admin"
+    },
+    "quang" : {
+      "mEmail" : "phamquang16599@gmail.com",
+      "mFullName" : "Phạm Văn Quang",
+      "mPassword" : "123456@qw",
+      "mPhoneNumber" : "0975390766",
+      "mUserName" : "quang"
+    }
+  }
+}
